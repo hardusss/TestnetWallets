@@ -23,7 +23,6 @@ class TrxWalletAddressCreate(WalletAddressCreateInterface):
             }
             logger.info(f"Successfully created TRX wallet with address {wallet['base58check_address']} and "
                         f"private_key {data.get('private_key')}")
-            return data
 
         except Exception as e:
             # Log the error and return an error response

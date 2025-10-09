@@ -1,0 +1,21 @@
+2025-07-26 15:18:36,339 - INFO - Successfully connected to RPC node: https://devnet.helius-rpc.com/?api-key=b350b993-1ca8-4557-95aa-9e96897cce14
+2025-07-26 15:18:36,339 - INFO - Starting transaction to Te9E5FBj7pkaC9GU3RqSUsCdrqqVV4Y6g5GvUr8Ydpy for 0.01 SOL.
+2025-07-26 15:18:36,339 - INFO - Loading sender keypair...
+2025-07-26 15:18:36,342 - INFO - Sender wallet loaded: CoRZk3AzGEiLe7pAzXpHWyrkYRVFCDs7zQ6HMDJshR1d
+2025-07-26 15:18:37,052 - INFO - Sender balance: 19.99799 SOL
+2025-07-26 15:18:37,052 - INFO - Preparing transaction...
+2025-07-26 15:18:37,438 - INFO - Got blockhash: 8DUyNocfpZfUXeM1r9J4S1sXRnqrjKHuCEeQ6zF86CDG
+2025-07-26 15:18:37,439 - ERROR - A critical error occurred: argument 's': 'Hash' object cannot be converted to 'PyString'
+2025-07-26 15:19:34,263 - INFO - Successfully connected to RPC node: https://devnet.helius-rpc.com/?api-key=b350b993-1ca8-4557-95aa-9e96897cce14
+2025-07-26 15:19:34,263 - INFO - Starting transaction to Te9E5FBj7pkaC9GU3RqSUsCdrqqVV4Y6g5GvUr8Ydpy for 0.01 SOL.
+2025-07-26 15:19:34,263 - INFO - Loading sender keypair...
+2025-07-26 15:19:34,264 - INFO - Sender wallet loaded: CoRZk3AzGEiLe7pAzXpHWyrkYRVFCDs7zQ6HMDJshR1d
+2025-07-26 15:19:34,626 - INFO - Sender balance: 19.99799 SOL
+2025-07-26 15:19:34,626 - INFO - Preparing transaction...
+2025-07-26 15:19:34,903 - INFO - Got blockhash: D4Nk2V4FBScmHZ6po97vwjLon4tKtfUhNxE7jSpkzHE5
+2025-07-26 15:19:34,911 - INFO - Transaction created.
+2025-07-26 15:19:34,911 - INFO - Sending transaction...
+2025-07-26 15:19:35,633 - INFO - Transaction sent with signature: 3oAUejb52wyRYXHuqTHra7HXKdcxXbt8ETPDm2LkirVcjDgQFwys3oYkF6xmAiyp8Fmmk4i5M4T8Sic1hsBqfthV
+2025-07-26 15:19:35,633 - INFO - Waiting for confirmation...
+2025-07-26 15:19:36,955 - INFO - Transaction confirmed!
+2025-07-26 15:19:36,955 - INFO - Success! Transaction link: https://explorer.solana.com/tx/3oAUejb52wyRYXHuqTHra7HXKdcxXbt8ETPDm2LkirVcjDgQFwys3oYkF6xmAiyp8Fmmk4i5M4T8Sic1hsBqfthV?cluster=devnet

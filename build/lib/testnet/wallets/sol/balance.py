@@ -19,7 +19,7 @@ class SolAddressBalance(AddressBalanceInterface):
         logger = Logger("solana-addresses-balance.log").get_logger()
         public_key = PublicKey(address)
         try:
-            testnet_client = Client("https://api.devnet.solana.com")
+            testnet_client = Client("https://api.testnet.solana.com")
             testnet_balance = testnet_client.get_balance(public_key)
             logger.info(f"Balance address: {address}: {float(testnet_balance.value) / 1_000_000_000}")
             return float(testnet_balance.value) / 1_000_000_000

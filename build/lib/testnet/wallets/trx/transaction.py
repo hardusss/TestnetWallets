@@ -26,5 +26,5 @@ class TrxTransaction:
         )
 
         txn_hash = txn.broadcast().wait()
-        return f"https://nile.tronscan.org/#/transaction/{txn_hash['id']}"
+        print("Transaction sent! Hash:", txn_hash)
 

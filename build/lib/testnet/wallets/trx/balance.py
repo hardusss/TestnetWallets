@@ -12,10 +12,11 @@ class TrxAddressBalance(AddressBalanceInterface):
 
         if address:
             try:
-                balance = float(tron.get_account(address)["balance"])
+                balance = float(tron.get_account_balance(address))
                 Logger(log_file="trx-addresses-balance.log").get_logger().info(f"Balance: {balance / 10**6} "
                                                                                f"address: {address}")
                 return balance / 10**6
             except Exception as e:
                 Logger(log_file="trx-addresses-balance.log").get_logger().error(f"Error: {str(e)}")
                 return 0.0
+
