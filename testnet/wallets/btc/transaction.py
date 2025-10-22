@@ -40,10 +40,6 @@ class BtcTransaction:
             url = "https://blockstream.info/testnet/api/tx"
             response = requests.post(url,  data=raw_tx_hex.encode("utf-8"))
 
-            if response.status_code == 200:
-                print("Transaction sent successfully:", response.text)
-            else:
-                print("Error:", response.text)
             # Get transaction hash
             tx_hash = tx.txid
 

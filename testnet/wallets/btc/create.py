@@ -26,8 +26,7 @@ class BtcWalletAddressCreate(WalletAddressCreateInterface):
             wallet = Wallet.create(f"NextVibeWalletBtc{user_id}", network='testnet')
             address = wallet.get_key().address
 
-            logger.info(f"Successfully created BTC wallet for user {user_id} with address {address} wallet name "
-                        f"{wallet.name}")
+            logger.info(f"Successfully created BTC wallet for user {user_id} with address {address} wallet name ")
 
             return {
                 "wallet": wallet,
