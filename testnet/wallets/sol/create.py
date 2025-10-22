@@ -25,7 +25,7 @@ class SolWalletAddressCreate(WalletAddressCreateInterface):
             keypair = Keypair.generate()
             public_key = keypair.public_key
             private_key = keypair.secret_key.hex()
-            logger.info(f"Creating wallet with address {public_key} and private key {private_key}")
+            logger.info(f"Creating wallet with address {public_key}")
             return {"address": str(public_key), "private_key": str(private_key)}
         except Exception as e:
             logger.error(f"Error creating Solana wallet: {str(e)}")
