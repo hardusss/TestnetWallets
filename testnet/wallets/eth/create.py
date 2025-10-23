@@ -26,4 +26,3 @@ class EthWalletAddressCreate(WalletAddressCreateInterface):
         except Exception as ex:
             logger.error(f"Error creating eth address: {ex}")
             return {"error": str(ex)}
-
