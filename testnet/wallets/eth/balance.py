@@ -37,6 +37,4 @@ class EthAddressBalance(AddressBalanceInterface):
         except Exception as ex:
             logger.error(f"Unknown error while getting balance for address {address}: {ex}")
             return 0.0
-        
-if __name__ == "__main__":
-    print(EthAddressBalance.get_balance(address="0x0feC4Ada3De77C2D9B92a1af906f1b50F994cf9A"))       
+           

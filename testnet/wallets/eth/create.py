@@ -27,6 +27,3 @@ class EthWalletAddressCreate(WalletAddressCreateInterface):
             logger.error(f"Error creating eth address: {ex}")
             return {"error": str(ex)}
 
-
-if __name__ == "__main__":
-    EthWalletAddressCreate.create()
