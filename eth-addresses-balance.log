@@ -1,0 +1,4 @@
+2025-10-23 09:04:26,054 - ERROR - Address 0x0feC4Ada3De77C2D9B92a1af906f1b50F994cf9A is not valid
+2025-10-23 09:04:49,184 - INFO - Success get balnce for address: 0x0feC4Ada3De77C2D9B92a1af906f1b50F994cf9A, balance: 0.05
+2025-10-23 10:47:19,841 - INFO - Successfully got balance for address: 0x35E075EfCc7dCC5399C62df88123Bb515B7b0266, balance: 0.06792374
+2025-10-23 10:48:27,020 - INFO - Successfully got balance for address: 0x35E075EfCc7dCC5399C62df88123Bb515B7b0266, balance: 0.06792374
